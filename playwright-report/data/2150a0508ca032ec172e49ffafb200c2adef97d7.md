@@ -1,0 +1,336 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - button "Dr Anna Kowalska" [ref=e7] [cursor=pointer]
+          - generic [ref=e8]: Psycholog Transportu
+        - navigation [ref=e9]:
+          - button "O mnie" [ref=e10] [cursor=pointer]
+          - button "Usługi" [ref=e11] [cursor=pointer]
+          - button "Opinie" [ref=e12] [cursor=pointer]
+          - button "Kontakt" [ref=e13] [cursor=pointer]
+    - main [ref=e14]:
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - generic [ref=e19]:
+            - heading "Profesjonalne badania psychologiczne dla kierowców" [level=1] [ref=e20]
+            - paragraph [ref=e21]: Doświadczony psycholog transportu w Przemyślu. Szybko, profesjonalnie, zgodnie z wymogami prawa.
+          - generic [ref=e22]:
+            - generic [ref=e23]:
+              - img [ref=e25]
+              - generic [ref=e27]: Badania na miejscu w gabinecie
+            - generic [ref=e28]:
+              - img [ref=e30]
+              - generic [ref=e32]: Szybkie wydawanie zaświadczeń
+            - generic [ref=e33]:
+              - img [ref=e35]
+              - generic [ref=e37]: 15 lat doświadczenia
+            - generic [ref=e38]:
+              - img [ref=e40]
+              - generic [ref=e42]: Indywidualne podejście
+          - generic [ref=e43]:
+            - button "Umów wizytę" [ref=e44] [cursor=pointer]
+            - link "Zadzwoń teraz" [ref=e45] [cursor=pointer]:
+              - /url: tel:+48 123 456 789
+          - generic [ref=e46]:
+            - generic [ref=e47]:
+              - img [ref=e48]
+              - generic [ref=e50]: +48 123 456 789
+            - generic [ref=e51]:
+              - img [ref=e52]
+              - generic [ref=e54]: Przemyśl
+            - generic [ref=e55]:
+              - img [ref=e56]
+              - generic [ref=e58]: 15 lat doświadczenia
+        - generic [ref=e62]:
+          - img [ref=e63]
+          - paragraph [ref=e65]: Zdjęcie psychologa
+      - generic [ref=e70]:
+        - generic [ref=e74]:
+          - img [ref=e75]
+          - paragraph [ref=e77]: Profesjonalne zdjęcie
+          - paragraph [ref=e78]: Dr Anna Kowalska
+        - generic [ref=e80]:
+          - heading "O mnie" [level=2] [ref=e82]
+          - generic [ref=e84]:
+            - generic [ref=e85]:
+              - heading "Dr Anna Kowalska" [level=3] [ref=e86]
+              - paragraph [ref=e87]: Psycholog Transportu
+              - paragraph [ref=e88]: Specjalista w dziedzinie psychologii transportu z ponad 15-letnim doświadczeniem. Przeprowadzam profesjonalne badania psychologiczne dla kierowców oraz oferuję wsparcie psychologiczne w trudnych sytuacjach zawodowych.
+            - generic [ref=e89]:
+              - img [ref=e90]
+              - generic [ref=e92]: 15 lat doświadczenia
+            - generic [ref=e93]:
+              - heading "Kwalifikacje i certyfikaty" [level=4] [ref=e94]
+              - list [ref=e95]:
+                - listitem [ref=e96]:
+                  - img [ref=e98]
+                  - generic [ref=e100]: Certyfikowany Psycholog Transportu
+                - listitem [ref=e101]:
+                  - img [ref=e103]
+                  - generic [ref=e105]: Specjalista ds. badań psychologicznych kierowców
+                - listitem [ref=e106]:
+                  - img [ref=e108]
+                  - generic [ref=e110]: Członek Polskiego Towarzystwa Psychologicznego
+            - generic [ref=e111]:
+              - generic [ref=e113]:
+                - img [ref=e115]
+                - generic [ref=e117]:
+                  - heading "Profesjonalizm" [level=5] [ref=e118]
+                  - paragraph [ref=e119]: Zgodnie z wymogami prawa
+              - generic [ref=e121]:
+                - img [ref=e123]
+                - generic [ref=e125]:
+                  - heading "Szybko" [level=5] [ref=e126]
+                  - paragraph [ref=e127]: Wydawanie zaświadczeń
+      - generic [ref=e129]:
+        - generic [ref=e130]:
+          - heading "Usługi" [level=2] [ref=e131]
+          - paragraph [ref=e133]: Oferuję kompleksowe usługi w zakresie psychologii transportu, dostosowane do indywidualnych potrzeb kierowców i firm transportowych.
+        - generic [ref=e134]:
+          - generic [ref=e135]:
+            - generic [ref=e137]:
+              - generic [ref=e138]:
+                - heading "Badania Psychologiczne Kierowców" [level=3] [ref=e139]
+                - generic [ref=e140]:
+                  - generic [ref=e141]:
+                    - img [ref=e142]
+                    - generic [ref=e144]: od 150 zł
+                  - generic [ref=e145]:
+                    - img [ref=e146]
+                    - generic [ref=e148]: 45 minut
+              - img [ref=e150]
+            - generic [ref=e152]:
+              - paragraph [ref=e153]: Profesjonalne badania psychologiczne wymagane do uzyskania lub przedłużenia uprawnień do kierowania pojazdami.
+              - generic [ref=e154]:
+                - generic [ref=e155]:
+                  - img [ref=e157]
+                  - generic [ref=e159]: Badania dla kierowców zawodowych
+                - generic [ref=e160]:
+                  - img [ref=e162]
+                  - generic [ref=e164]: Badania dla instruktorów nauki jazdy
+                - generic [ref=e165]:
+                  - img [ref=e167]
+                  - generic [ref=e169]: Badania dla kierowców autobusów i ciężarówek
+                - generic [ref=e170]:
+                  - img [ref=e172]
+                  - generic [ref=e174]: Wydawanie zaświadczeń
+              - button "Umów wizytę" [ref=e175] [cursor=pointer]
+          - generic [ref=e176]:
+            - generic [ref=e178]:
+              - generic [ref=e179]:
+                - heading "Konsultacje Psychologiczne" [level=3] [ref=e180]
+                - generic [ref=e181]:
+                  - generic [ref=e182]:
+                    - img [ref=e183]
+                    - generic [ref=e185]: 200 zł
+                  - generic [ref=e186]:
+                    - img [ref=e187]
+                    - generic [ref=e189]: 50 minut
+              - img [ref=e191]
+            - generic [ref=e193]:
+              - paragraph [ref=e194]: Indywidualne wsparcie psychologiczne dla kierowców i pracowników transportu.
+              - generic [ref=e195]:
+                - generic [ref=e196]:
+                  - img [ref=e198]
+                  - generic [ref=e200]: Radzenie sobie ze stresem zawodowym
+                - generic [ref=e201]:
+                  - img [ref=e203]
+                  - generic [ref=e205]: Wsparcie po wypadkach drogowych
+                - generic [ref=e206]:
+                  - img [ref=e208]
+                  - generic [ref=e210]: Terapia lęku przed jazdą
+                - generic [ref=e211]:
+                  - img [ref=e213]
+                  - generic [ref=e215]: Rozwój kompetencji zawodowych
+              - button "Umów wizytę" [ref=e216] [cursor=pointer]
+        - generic [ref=e218]:
+          - heading "Dlaczego warto wybrać nasze usługi?" [level=3] [ref=e219]
+          - generic [ref=e220]:
+            - generic [ref=e221]:
+              - img [ref=e223]
+              - heading "Profesjonalizm" [level=4] [ref=e225]
+              - paragraph [ref=e226]: Wszystkie badania przeprowadzane zgodnie z obowiązującymi przepisami
+            - generic [ref=e227]:
+              - img [ref=e229]
+              - heading "Szybkość" [level=4] [ref=e231]
+              - paragraph [ref=e232]: Natychmiastowe wydawanie zaświadczeń po zakończeniu badania
+            - generic [ref=e233]:
+              - img [ref=e235]
+              - heading "Indywidualne podejście" [level=4] [ref=e237]
+              - paragraph [ref=e238]: Każdy klient otrzymuje pełne wsparcie i profesjonalną opiekę
+      - generic [ref=e240]:
+        - generic [ref=e241]:
+          - heading "Opinie" [level=2] [ref=e242]
+          - paragraph [ref=e244]: Sprawdź, co mówią nasi klienci o naszych usługach. Ich zadowolenie jest dla nas najważniejsze.
+        - generic [ref=e246]:
+          - img [ref=e250]
+          - generic [ref=e252]:
+            - generic [ref=e253]:
+              - generic [ref=e254]:
+                - img [ref=e255]
+                - img [ref=e257]
+                - img [ref=e259]
+                - img [ref=e261]
+                - img [ref=e263]
+              - paragraph [ref=e265]: “Profesjonalne podejście i miła atmosfera. Badania przebiegły sprawnie, polecam!”
+              - generic [ref=e266]:
+                - generic [ref=e267]:
+                  - paragraph [ref=e268]: Marek Nowak
+                  - paragraph [ref=e269]: styczeń 2024
+                - generic [ref=e270]:
+                  - img [ref=e271]
+                  - generic [ref=e273]: Zweryfikowana
+            - generic [ref=e274]:
+              - button "Poprzednia opinia" [ref=e275] [cursor=pointer]:
+                - img [ref=e276] [cursor=pointer]
+              - generic [ref=e278]:
+                - button "Przejdź do opinii 1" [ref=e279] [cursor=pointer]
+                - button "Przejdź do opinii 2" [ref=e280] [cursor=pointer]
+                - button "Przejdź do opinii 3" [ref=e281] [cursor=pointer]
+              - button "Następna opinia" [ref=e282] [cursor=pointer]:
+                - img [ref=e283] [cursor=pointer]
+        - generic [ref=e285]:
+          - generic [ref=e286]:
+            - img [ref=e288]
+            - heading "500+" [level=3] [ref=e290]
+            - paragraph [ref=e291]: Zadowolonych klientów
+          - generic [ref=e292]:
+            - img [ref=e294]
+            - heading "15" [level=3] [ref=e296]
+            - paragraph [ref=e297]: lat doświadczenia
+          - generic [ref=e298]:
+            - img [ref=e300]
+            - heading "24h" [level=3] [ref=e302]
+            - paragraph [ref=e303]: Maksymalny czas oczekiwania
+      - generic [ref=e305]:
+        - generic [ref=e306]:
+          - heading "Kontakt" [level=2] [ref=e307]
+          - paragraph [ref=e309]: Skontaktuj się z nami, aby umówić wizytę lub uzyskać więcej informacji o naszych usługach. Jesteśmy do Twojej dyspozycji.
+        - generic [ref=e310]:
+          - generic [ref=e312]:
+            - heading "Formularz kontaktowy" [level=3] [ref=e313]
+            - generic [ref=e314]:
+              - generic [ref=e315]:
+                - generic [ref=e316]:
+                  - generic [ref=e317]: Imię i nazwisko *
+                  - textbox "Imię i nazwisko *" [ref=e318]
+                - generic [ref=e319]:
+                  - generic [ref=e320]: Adres email *
+                  - textbox "Adres email *" [ref=e321]
+              - generic [ref=e322]:
+                - generic [ref=e323]:
+                  - generic [ref=e324]: Numer telefonu
+                  - textbox "Numer telefonu" [ref=e325]
+                - generic [ref=e326]:
+                  - generic [ref=e327]: Usługa
+                  - combobox "Usługa" [ref=e328]:
+                    - option "Wybierz usługę" [selected]
+                    - option "Badania Psychologiczne Kierowców"
+                    - option "Konsultacje Psychologiczne"
+              - generic [ref=e329]:
+                - generic [ref=e330]: Wiadomość *
+                - textbox "Wiadomość *" [ref=e331]
+              - button "Wyślij wiadomość" [ref=e332] [cursor=pointer]
+          - generic [ref=e333]:
+            - generic [ref=e334]:
+              - heading "Dane kontaktowe" [level=3] [ref=e335]
+              - generic [ref=e336]:
+                - generic [ref=e337]:
+                  - img [ref=e339]
+                  - generic [ref=e341]:
+                    - paragraph [ref=e342]: Telefon
+                    - link "123 456 789" [ref=e343] [cursor=pointer]:
+                      - /url: tel:+48 123 456 789
+                - generic [ref=e344]:
+                  - img [ref=e346]
+                  - generic [ref=e348]:
+                    - paragraph [ref=e349]: Email
+                    - link "kontakt@psycholog-przemysl.pl" [ref=e350] [cursor=pointer]:
+                      - /url: mailto:kontakt@psycholog-przemysl.pl
+                - generic [ref=e351]:
+                  - img [ref=e353]
+                  - generic [ref=e355]:
+                    - paragraph [ref=e356]: Adres
+                    - paragraph [ref=e357]: ul. Słowackiego 15, 37-700 Przemyśl
+            - generic [ref=e358]:
+              - heading "Godziny otwarcia" [level=3] [ref=e359]
+              - generic [ref=e360]:
+                - generic [ref=e361]:
+                  - generic [ref=e362]: Poniedziałek
+                  - generic [ref=e363]: 8:00 - 16:00
+                - generic [ref=e364]:
+                  - generic [ref=e365]: Wtorek
+                  - generic [ref=e366]: 8:00 - 16:00
+                - generic [ref=e367]:
+                  - generic [ref=e368]: Środa
+                  - generic [ref=e369]: 8:00 - 16:00
+                - generic [ref=e370]:
+                  - generic [ref=e371]: Czwartek
+                  - generic [ref=e372]: 8:00 - 16:00
+                - generic [ref=e373]:
+                  - generic [ref=e374]: Piątek
+                  - generic [ref=e375]: 8:00 - 14:00
+                - generic [ref=e376]:
+                  - generic [ref=e377]: Sobota
+                  - generic [ref=e378]: Na umówienie
+                - generic [ref=e379]:
+                  - generic [ref=e380]: Niedziela
+                  - generic [ref=e381]: Zamknięte
+            - generic [ref=e382]:
+              - heading "Lokalizacja" [level=3] [ref=e384]
+              - iframe [ref=e386]:
+                
+    - contentinfo [ref=e387]:
+      - generic [ref=e388]:
+        - generic [ref=e389]:
+          - generic [ref=e390]:
+            - heading "Dr Anna Kowalska" [level=3] [ref=e391]
+            - paragraph [ref=e392]: Psycholog Transportu • 15 lat doświadczenia
+            - paragraph [ref=e393]: Profesjonalne badania psychologiczne dla kierowców w Przemyślu. Zapewniamy wysoką jakość usług zgodnie z obowiązującymi przepisami.
+            - generic [ref=e394]:
+              - generic [ref=e395]:
+                - img [ref=e396]
+                - link "+48 123 456 789" [ref=e398] [cursor=pointer]:
+                  - /url: tel:+48 123 456 789
+              - generic [ref=e399]:
+                - img [ref=e400]
+                - link "kontakt@psycholog-przemysl.pl" [ref=e402] [cursor=pointer]:
+                  - /url: mailto:kontakt@psycholog-przemysl.pl
+              - generic [ref=e403]:
+                - img [ref=e404]
+                - generic [ref=e406]: ul. Słowackiego 15, 37-700 Przemyśl
+          - generic [ref=e407]:
+            - heading "Szybkie linki" [level=4] [ref=e408]
+            - list [ref=e409]:
+              - listitem [ref=e410]:
+                - button "O mnie" [ref=e411] [cursor=pointer]
+              - listitem [ref=e412]:
+                - button "Usługi" [ref=e413] [cursor=pointer]
+              - listitem [ref=e414]:
+                - button "Opinie" [ref=e415] [cursor=pointer]
+              - listitem [ref=e416]:
+                - button "Kontakt" [ref=e417] [cursor=pointer]
+          - generic [ref=e418]:
+            - heading "Usługi" [level=4] [ref=e419]
+            - list [ref=e420]:
+              - listitem [ref=e421]:
+                - button "Badania Psychologiczne Kierowców" [ref=e422] [cursor=pointer]
+              - listitem [ref=e423]:
+                - button "Konsultacje Psychologiczne" [ref=e424] [cursor=pointer]
+        - generic [ref=e426]:
+          - generic [ref=e427]: © 2024 Psycholog Transportu Przemyśl. Wszelkie prawa zastrzeżone.
+          - generic [ref=e428]:
+            - link "Polityka prywatności" [ref=e429] [cursor=pointer]:
+              - /url: /polityka-prywatnosci
+            - generic [ref=e430]:
+              - generic [ref=e431]: Powered by
+              - generic [ref=e432]: Next.js
+  - button "Open Next.js Dev Tools" [ref=e438] [cursor=pointer]:
+    - img [ref=e439] [cursor=pointer]
+  - alert [ref=e442]
+```

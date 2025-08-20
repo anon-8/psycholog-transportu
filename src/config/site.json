@@ -1,0 +1,118 @@
+{
+  "site": {
+    "title": "Pracownia Psychologiczna POMYSŁ NA ZDROWIE",
+    "description": "Profesjonalne badania psychologiczne dla kierowców w Przemyślu. Psychotesty, konsultacje, wieloletnie doświadczenie.",
+    "keywords": "psycholog transportu, badania psychologiczne, kierowcy, Przemyśl"
+  },
+  "psychologist": {
+    "name": "Dr Anna Kowalska",
+    "title": "Psycholog Transportu",
+    "experience": "15 lat doświadczenia",
+    "bio": "Specjalista w dziedzinie psychologii transportu z ponad 15-letnim doświadczeniem. Przeprowadzam profesjonalne badania psychologiczne dla kierowców oraz oferuję wsparcie psychologiczne w trudnych sytuacjach zawodowych.",
+    "certifications": [
+      "Certyfikowany Psycholog Transportu",
+      "Specjalista ds. badań psychologicznych kierowców",
+      "Członek Polskiego Towarzystwa Psychologicznego"
+    ]
+  },
+  "contact": {
+    "phone": "+48 782 835 799",
+    "email": "marcelatukallo@wp.pl",
+    "address": {
+      "street": "ul. Czarnieckiego 2",
+      "city": "Przemyśl",
+      "postalCode": "37-700",
+      "full": "ul. Czarnieckiego 2, 37-700 Przemyśl"
+    },
+    "hours": {
+      "monday": "13:00 - 17:00",
+      "tuesday": "13:00 - 17:00",
+      "wednesday": "13:00 - 17:00",
+      "thursday": "13:00 - 17:00",
+      "friday": "13:00 - 17:00",
+      "saturday": "Zamknięte",
+      "sunday": "Zamknięte"
+    },
+    "googleMapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2576.0880093985393!2d22.76850498901902!3d49.78440986155054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473b7f26fd6b343f%3A0x6f73956ceccc3ef0!2sPracownia%20Psychologiczna%20-%20Badania%20kierowc%C3%B3w%20w%20Przemy%C5%9Blu!5e0!3m2!1spl!2spl!4v1755698546214!5m2!1spl!2spl"
+  },
+  "services": [
+    {
+      "id": "psychotesty",
+      "title": "Badania Psychologiczne Kierowców",
+      "description": "Profesjonalne badania psychologiczne wymagane do uzyskania lub przedłużenia uprawnień do kierowania pojazdami.",
+      "features": [
+        "Badania dla kierowców zawodowych",
+        "Badania dla instruktorów nauki jazdy",
+        "Badania dla kierowców autobusów i ciężarówek",
+        "Wydawanie zaświadczeń"
+      ],
+      "price": "od 150 zł",
+      "duration": "45 minut"
+    },
+    {
+      "id": "konsultacje",
+      "title": "Konsultacje Psychologiczne",
+      "description": "Indywidualne wsparcie psychologiczne dla kierowców i pracowników transportu.",
+      "features": [
+        "Radzenie sobie ze stresem zawodowym",
+        "Wsparcie po wypadkach drogowych",
+        "Terapia lęku przed jazdą",
+        "Rozwój kompetencji zawodowych"
+      ],
+      "price": "200 zł",
+      "duration": "50 minut"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "name": "Krzysztof Laszkiewicz",
+      "rating": 5,
+      "text": "Z czystym sumieniem mogę polecić. Szybko i na temat.",
+      "date": "2024-01-15",
+      "verified": true
+    },
+    {
+      "id": 2,
+      "name": "Krzysq Bacq",
+      "rating": 5,
+      "text": "Bardzo rzetelna oraz uczciwa pracownia.  To już trzeci raz jak robiłem u Pani badania i na pewno powrócę następnym razem. Do zobaczenia za 5 lat🙋…",
+      "date": "2024-08-20",
+      "verified": true
+    },
+    {
+      "id": 3,
+      "name": "Łukasz H",
+      "rating": 5,
+      "text": "Polecam. Bardzo miło i przyjemnie. Badania super nowy sprzęt.",
+      "date": "2023-07-20",
+      "verified": true
+    }
+  ],
+  "cta": {
+    "primary": "Umów wizytę",
+    "secondary": "Skontaktuj się",
+    "phoneCall": "Zadzwoń teraz"
+  },
+  "navigation": {
+    "home": "Strona główna",
+    "about": "O mnie",
+    "services": "Usługi",
+    "reviews": "Opinie",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "headline": "Profesjonalne badania psychologiczne dla kierowców",
+    "subheadline": "Doświadczony psycholog transportu w Przemyślu. Szybko, profesjonalnie, zgodnie z wymogami prawa.",
+    "features": [
+      "Badania na miejscu w gabinecie",
+      "Szybkie wydawanie zaświadczeń",
+      "15 lat doświadczenia",
+      "Indywidualne podejście"
+    ]
+  },
+  "footer": {
+    "copyright": "© 2025 Pracownia Psychologiczna POMYSŁ NA ZDROWIE. Wszelkie prawa zastrzeżone.",
+    "privacyPolicy": "Polityka prywatności"
+  }
+}
