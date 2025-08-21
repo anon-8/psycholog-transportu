@@ -31,30 +31,18 @@
   },
   "services": [
     {
-      "id": "kierowcy-kategorii-podstawowe",
-      "title": "Kierowcy wszystkich kat. prawa jazdy",
-      "description": "Badania psychologiczne dla kierowców wszystkich kategorii prawa jazdy - A, B, C, CE, D, DE.",
+      "id": "kierowcy-kandydaci-egzaminatorzy-instruktorzy",
+      "title": "Kierowcy, kandydaci, egzaminatorzy i instruktorzy",
+      "description": "Badania psychologiczne dla kierowców wszystkich kategorii prawa jazdy, kandydatów na kierowców kategorii zawodowych, egzaminatorów oraz instruktorów nauki jazdy.",
       "features": [
         "Kategoria A - motocykle",
         "Kategoria B - samochody osobowe",
         "Kategoria C - ciężarowe",
         "Kategoria CE - ciężarowe z przyczepą",
         "Kategoria D - autobusy",
-        "Kategoria DE - autobusy z przyczepą"
-      ],
-      "price": "Rejestracja",
-      "duration": "tel. 576 804 375"
-    },
-    {
-      "id": "kandydaci-egzaminatorzy",
-      "title": "Kandydatów na kierowców kat. C, CE, D, DE i egzaminatorów",
-      "description": "Specjalistyczne badania dla kandydatów na kierowców kategorii zawodowych oraz egzaminatorów.",
-      "features": [
-        "Kandydaci na kierowców kat. C",
-        "Kandydaci na kierowców kat. CE",
-        "Kandydaci na kierowców kat. D",
-        "Kandydaci na kierowców kat. DE",
-        "Egzaminatorzy nauki jazdy"
+        "Kategoria DE - autobusy z przyczepą",
+        "Egzaminatorzy nauki jazdy",
+        "Instruktorzy nauki jazdy"
       ],
       "price": "Rejestracja",
       "duration": "tel. 576 804 375"

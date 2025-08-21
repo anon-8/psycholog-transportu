@@ -7,16 +7,12 @@ export default function About() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Psychologist Photo */}
           <div className="relative order-2 lg:order-1">
-            <div className="aspect-w-4 aspect-h-5 bg-gradient-to-br from-teal-50 to-teal-100 rounded-2xl shadow-xl">
-              <div className="w-full h-96 lg:h-[500px] bg-gradient-to-br from-teal-50 to-teal-100 rounded-2xl flex items-center justify-center">
-                <div className="text-center text-teal-600">
-                  <svg className="w-20 h-20 mx-auto mb-4" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-                  </svg>
-                  <p className="text-sm font-medium">Profesjonalne zdjęcie</p>
-                  <p className="text-sm">{config.psychologist.name}</p>
-                </div>
-              </div>
+            <div className="aspect-w-4 aspect-h-5 bg-gradient-to-br from-teal-50 to-teal-100 rounded-2xl shadow-xl overflow-hidden">
+              <img
+                src="/images/portrait.jpg"
+                alt={`${config.psychologist.name} - Psycholog Transportu w Przemyślu`}
+                className="w-full h-96 lg:h-[500px] object-cover rounded-2xl"
+              />
             </div>
             {/* Decorative background */}
             <div className="absolute -top-6 -left-6 w-full h-full bg-teal-200 rounded-2xl -z-10"></div>
