@@ -5,10 +5,15 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --primary: #16a34a;
+  --primary: #14b8a6;
   --primary-foreground: #ffffff;
-  --muted: #f3f4f6;
+  --muted: #f0fdfa;
   --muted-foreground: #6b7280;
+  --teal-50: #f0fdfa;
+  --teal-100: #ccfbf1;
+  --teal-500: #14b8a6;
+  --teal-600: #0d9488;
+  --teal-700: #0f766e;
 }
 
 @media (prefers-color-scheme: dark) {

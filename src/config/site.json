@@ -1,66 +1,89 @@
 {
   "site": {
-    "title": "Pracownia Psychologiczna POMYSŁ NA ZDROWIE",
-    "description": "Profesjonalne badania psychologiczne dla kierowców w Przemyślu. Psychotesty, konsultacje, wieloletnie doświadczenie.",
-    "keywords": "psycholog transportu, badania psychologiczne, kierowcy, Przemyśl"
+    "title": "Pracownia Psychologiczna - mgr Magdalena Czopko",
+    "description": "Badania psychologiczne w zakresie psychologii transportu i medycyny pracy w Przemyślu. Gabinet otwarty od poniedziałku do piątku.",
+    "keywords": "psycholog transportu, badania psychologiczne, kierowcy, Przemyśl, medycyna pracy"
   },
   "psychologist": {
-    "name": "Dr Magdalena Czopko",
-    "title": "Psycholog Transportu",
-    "experience": "15 lat doświadczenia",
-    "bio": "Specjalista w dziedzinie psychologii transportu z ponad 15-letnim doświadczeniem. Przeprowadzam profesjonalne badania psychologiczne dla kierowców oraz oferuję wsparcie psychologiczne w trudnych sytuacjach zawodowych.",
+    "name": "mgr Magdalena Czopko",
+    "title": "psycholog transportu",
+    "experience": "Wieloletnie doświadczenie",
+    "bio": "Specjalista w dziedzinie psychologii transportu i medycyny pracy. Przeprowadzam profesjonalne badania psychologiczne dla kierowców wszystkich kategorii oraz pracowników w zawodach trudnych i niebezpiecznych.",
     "certifications": [
-      "Certyfikowany Psycholog Transportu",
-      "Specjalista ds. badań psychologicznych kierowców",
-      "Członek Polskiego Towarzystwa Psychologicznego"
+      "Psycholog transportu",
+      "Badania psychologiczne w medycynie pracy",
+      "Specjalista ds. badań kierowców zawodowych"
     ]
   },
   "contact": {
-    "phone": "+48 576 804 375",
+    "phone": "576 804 375",
     "email": "magdaczopko@gmail.com",
     "address": {
-      "street": "ul. Czarnieckiego 2",
+      "street": "ul. S. Czarnieckiego 2",
       "city": "Przemyśl",
       "postalCode": "37-700",
-      "full": "ul. Czarnieckiego 2, 37-700 Przemyśl"
+      "full": "ul. S. Czarnieckiego 2, 37-700 Przemyśl"
     },
     "hours": {
-      "monday": "13:00 - 17:00",
-      "tuesday": "13:00 - 17:00",
-      "wednesday": "13:00 - 17:00",
-      "thursday": "13:00 - 17:00",
-      "friday": "13:00 - 17:00",
-      "saturday": "Zamknięte",
-      "sunday": "Zamknięte"
+      "monday": "godziny popołudniowe"
     },
     "googleMapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2576.0880093985393!2d22.76850498901902!3d49.78440986155054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473b7f26fd6b343f%3A0x6f73956ceccc3ef0!2sPracownia%20Psychologiczna%20-%20Badania%20kierowc%C3%B3w%20w%20Przemy%C5%9Blu!5e0!3m2!1spl!2spl!4v1755698546214!5m2!1spl!2spl"
   },
   "services": [
     {
-      "id": "psychotesty",
-      "title": "Badania Psychologiczne Kierowców",
-      "description": "Profesjonalne badania psychologiczne wymagane do uzyskania lub przedłużenia uprawnień do kierowania pojazdami.",
+      "id": "kierowcy-kategorii-podstawowe",
+      "title": "Kierowcy wszystkich kat. prawa jazdy",
+      "description": "Badania psychologiczne dla kierowców wszystkich kategorii prawa jazdy - A, B, C, CE, D, DE.",
       "features": [
-        "Badania dla kierowców zawodowych",
-        "Badania dla instruktorów nauki jazdy",
-        "Badania dla kierowców autobusów i ciężarówek",
-        "Wydawanie zaświadczeń"
+        "Kategoria A - motocykle",
+        "Kategoria B - samochody osobowe",
+        "Kategoria C - ciężarowe",
+        "Kategoria CE - ciężarowe z przyczepą",
+        "Kategoria D - autobusy",
+        "Kategoria DE - autobusy z przyczepą"
       ],
-      "price": "od 150 zł",
-      "duration": "45 minut"
+      "price": "Rejestracja",
+      "duration": "tel. 576 804 375"
     },
     {
-      "id": "konsultacje",
-      "title": "Konsultacje Psychologiczne",
-      "description": "Indywidualne wsparcie psychologiczne dla kierowców i pracowników transportu.",
+      "id": "kandydaci-egzaminatorzy",
+      "title": "Kandydatów na kierowców kat. C, CE, D, DE i egzaminatorów",
+      "description": "Specjalistyczne badania dla kandydatów na kierowców kategorii zawodowych oraz egzaminatorów.",
       "features": [
-        "Radzenie sobie ze stresem zawodowym",
-        "Wsparcie po wypadkach drogowych",
-        "Terapia lęku przed jazdą",
-        "Rozwój kompetencji zawodowych"
+        "Kandydaci na kierowców kat. C",
+        "Kandydaci na kierowców kat. CE",
+        "Kandydaci na kierowców kat. D",
+        "Kandydaci na kierowców kat. DE",
+        "Egzaminatorzy nauki jazdy"
       ],
-      "price": "200 zł",
-      "duration": "50 minut"
+      "price": "Rejestracja",
+      "duration": "tel. 576 804 375"
+    },
+    {
+      "id": "operatorzy-maszyn",
+      "title": "Operatorów maszyn, dźwignic, wózków jezdniowych",
+      "description": "Badania psychologiczne dla operatorów różnego typu maszyn przemysłowych i budowlanych.",
+      "features": [
+        "Operatorzy maszyn przemysłowych",
+        "Operatorzy dźwignic",
+        "Operatorzy wózków widłowych",
+        "Operatorzy sprzętu budowlanego"
+      ],
+      "price": "Rejestracja",
+      "duration": "tel. 576 804 375"
+    },
+    {
+      "id": "zawody-trudne",
+      "title": "Pracowników w zawodach trudnych i niebezpiecznych",
+      "description": "Badania dla pracowników wykonujących zawody o podwyższonym ryzyku zgodnie z przepisami medycyny pracy.",
+      "features": [
+        "Zawody trudne fizycznie",
+        "Zawody niebezpieczne",
+        "Praca na wysokości",
+        "Praca z materiałami niebezpiecznymi"
+      ],
+      "price": "Rejestracja",
+      "duration": "tel. 576 804 375"
     }
   ],
   "reviews": [
@@ -103,12 +126,12 @@
   },
   "hero": {
     "headline": "Profesjonalne badania psychologiczne dla kierowców",
-    "subheadline": "Doświadczony psycholog transportu w Przemyślu. Szybko, profesjonalnie, zgodnie z wymogami prawa.",
+    "subheadline": "Psycholog transportu w Przemyślu. Szybko, profesjonalnie, zgodnie z wymogami prawa.",
     "features": [
       "Badania na miejscu w gabinecie",
       "Szybkie wydawanie zaświadczeń",
-      "15 lat doświadczenia",
-      "Indywidualne podejście"
+      "Profesjonalne podejście",
+      "Zgodnie z wymogami prawa"
     ]
   },
   "footer": {
