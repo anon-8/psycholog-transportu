@@ -1,4 +1,4 @@
-import config from '@/lib/config';
+import config from "@/lib/config";
 
 export default function About() {
   return (
@@ -21,38 +21,20 @@ export default function About() {
           {/* Content */}
           <div className="space-y-8 order-1 lg:order-2">
             <div className="space-y-4">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-                {config.navigation.about}
-              </h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900">{config.navigation.about}</h2>
               <div className="w-20 h-1 bg-teal-600"></div>
             </div>
 
             <div className="space-y-6">
               <div>
-                <h3 className="text-2xl font-semibold text-gray-900 mb-2">
-                  {config.psychologist.name}
-                </h3>
-                <p className="text-lg text-teal-600 font-medium mb-4">
-                  {config.psychologist.title}
-                </p>
-                <p className="text-gray-600 leading-relaxed">
-                  {config.psychologist.bio}
-                </p>
-              </div>
-
-              {/* Experience badge */}
-              <div className="inline-flex items-center bg-teal-100 text-teal-800 px-4 py-2 rounded-full">
-                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-                </svg>
-                <span className="font-medium">{config.psychologist.experience}</span>
+                <h3 className="text-2xl font-semibold text-gray-900 mb-2">{config.psychologist.name}</h3>
+                <p className="text-lg text-teal-600 font-medium mb-4">{config.psychologist.title}</p>
+                <p className="text-gray-600 leading-relaxed">{config.psychologist.bio}</p>
               </div>
 
               {/* Certifications */}
               <div>
-                <h4 className="text-lg font-semibold text-gray-900 mb-4">
-                  Kwalifikacje i certyfikaty
-                </h4>
+                <h4 className="text-lg font-semibold text-gray-900 mb-4">Kwalifikacje i certyfikaty</h4>
                 <ul className="space-y-3">
                   {config.psychologist.certifications.map((cert, index) => (
                     <li key={index} className="flex items-start space-x-3">
@@ -81,7 +63,12 @@ export default function About() {
                   <div className="flex items-center space-x-3">
                     <div className="w-10 h-10 bg-teal-100 rounded-lg flex items-center justify-center">
                       <svg className="w-6 h-6 text-teal-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
                       </svg>
                     </div>
                     <div>
@@ -94,12 +81,17 @@ export default function About() {
                   <div className="flex items-center space-x-3">
                     <div className="w-10 h-10 bg-teal-100 rounded-lg flex items-center justify-center">
                       <svg className="w-6 h-6 text-teal-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                        />
                       </svg>
                     </div>
                     <div>
                       <h5 className="font-medium text-gray-900">Szybko</h5>
-                      <p className="text-sm text-gray-600">Wydawanie zaświadczeń</p>
+                      <p className="text-sm text-gray-600">Wydanie orzeczenia tego samego dnia</p>
                     </div>
                   </div>
                 </div>
