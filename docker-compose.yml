@@ -30,3 +30,4 @@ services:
 networks:
   towerlights_network:
     external: true
+    name: tower-lights_towerlights_network

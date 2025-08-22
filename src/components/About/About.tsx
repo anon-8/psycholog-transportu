@@ -1,4 +1,5 @@
 import config from "@/lib/config";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -7,11 +8,18 @@ export default function About() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Psychologist Photo */}
           <div className="relative order-2 lg:order-1">
-            <div className="aspect-w-4 aspect-h-5 bg-gradient-to-br from-teal-50 to-teal-100 rounded-2xl shadow-xl overflow-hidden">
-              <img
+            <div className="relative w-full h-96 lg:h-[500px] bg-gradient-to-br from-teal-50 to-teal-100 rounded-2xl shadow-xl overflow-hidden">
+              <Image
                 src="/images/portrait.jpg"
                 alt={`${config.psychologist.name} - Psycholog Transportu w Przemyślu`}
-                className="w-full h-96 lg:h-[500px] object-cover rounded-2xl"
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 40vw"
+                className="object-cover rounded-2xl"
+                quality={100}
+                priority
+                unoptimized={false}
+                placeholder="blur"
+                blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
               />
             </div>
             {/* Decorative background */}
