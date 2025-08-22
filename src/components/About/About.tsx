@@ -34,7 +34,6 @@ export default function About() {
 
               {/* Certifications */}
               <div>
-                <h4 className="text-lg font-semibold text-gray-900 mb-4">Kwalifikacje i certyfikaty</h4>
                 <ul className="space-y-3">
                   {config.psychologist.certifications.map((cert, index) => (
                     <li key={index} className="flex items-start space-x-3">

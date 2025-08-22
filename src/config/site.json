@@ -10,9 +10,9 @@
     "experience": "Wieloletnie doświadczenie",
     "bio": "Specjalista w dziedzinie psychologii transportu i medycyny pracy. Przeprowadzam profesjonalne badania psychologiczne dla kierowców wszystkich kategorii oraz pracowników w zawodach trudnych i niebezpiecznych.",
     "certifications": [
-      "Psycholog transportu",
-      "Badania psychologiczne w medycynie pracy",
-      "Specjalista ds. badań kierowców zawodowych"
+      "Znajomość potrzeb i oczekiwań Klientów",
+      "Profejonalnie przeprowadzone psychotesty dla kierowców",
+      "Indywidualne podejście do każdego przypadku"
     ]
   },
   "contact": {
@@ -29,28 +29,23 @@
     },
     "googleMapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2576.0880093985393!2d22.76850498901902!3d49.78440986155054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473b7f26fd6b343f%3A0x6f73956ceccc3ef0!2sPracownia%20Psychologiczna%20-%20Badania%20kierowc%C3%B3w%20w%20Przemy%C5%9Blu!5e0!3m2!1spl!2spl!4v1755698546214!5m2!1spl!2spl"
   },
+  "servicesIntro": {
+    "title": "Usługi",
+    "description": "Prowadzę badania psychologiczne dla kierowców, pracowników branży transportowej oraz osób wykonujących zawody trudne i niebezpieczne. Korzystam z profesjonalnych testów, które pozwalają ocenić osobowość, temperament, zdolności intelektualne, szybkość reakcji, koncentrację uwagi oraz sprawność psychomotoryczną."
+  },
   "services": [
     {
       "id": "kierowcy-kandydaci-egzaminatorzy-instruktorzy",
       "title": "Kierowcy, kandydaci, egzaminatorzy i instruktorzy",
-      "description": "Badania psychologiczne dla kierowców wszystkich kategorii prawa jazdy, kandydatów na kierowców kategorii zawodowych, egzaminatorów oraz instruktorów nauki jazdy.",
-      "features": [
-        "Kategoria A - motocykle",
-        "Kategoria B - samochody osobowe",
-        "Kategoria C - ciężarowe",
-        "Kategoria CE - ciężarowe z przyczepą",
-        "Kategoria D - autobusy",
-        "Kategoria DE - autobusy z przyczepą",
-        "Egzaminatorzy nauki jazdy",
-        "Instruktorzy nauki jazdy"
-      ],
+      "description": "Badania psychologiczne dla kierowców wszystkich kategorii prawa jazdy, kandydatów na kierowców zawodowych, egzaminatorów i instruktorów nauki jazdy.",
+      "features": ["Wszystkie kategorie prawa jazdy", "Egzaminatorzy nauki jazdy", "Instruktorzy nauki jazdy"],
       "price": "Rejestracja",
       "duration": "tel. 576 804 375"
     },
     {
       "id": "operatorzy-maszyn",
-      "title": "Operatorów maszyn, dźwignic, wózków jezdniowych",
-      "description": "Badania psychologiczne dla operatorów różnego typu maszyn przemysłowych i budowlanych.",
+      "title": "Operatorzy maszyn, dźwignic i wózków jezdniowych",
+      "description": "Badania psychologiczne dla operatorów maszyn przemysłowych i budowlanych, w tym wózków widłowych i dźwignic.",
       "features": [
         "Operatorzy maszyn przemysłowych",
         "Operatorzy dźwignic",
@@ -62,13 +57,42 @@
     },
     {
       "id": "zawody-trudne",
-      "title": "Pracowników w zawodach trudnych i niebezpiecznych",
-      "description": "Badania dla pracowników wykonujących zawody o podwyższonym ryzyku zgodnie z przepisami medycyny pracy.",
+      "title": "Pracownicy w zawodach trudnych i niebezpiecznych",
+      "description": "Badania psychologiczne dla osób wykonujących zawody o podwyższonym ryzyku, zgodnie z przepisami medycyny pracy.",
+      "features": [],
+      "price": "Rejestracja",
+      "duration": "tel. 576 804 375"
+    },
+    {
+      "id": "testy-osobowosciowe",
+      "title": "Testy osobowości i temperamentu",
+      "description": "Profesjonalne testy psychologiczne do oceny cech osobowości i temperamentu.",
+      "features": [],
+      "price": "Rejestracja",
+      "duration": "tel. 576 804 375"
+    },
+    {
+      "id": "testy-intelektualne",
+      "title": "Testy sprawności intelektualnej",
+      "description": "Ocena zdolności poznawczych i intelektualnych, w tym szybkości i dokładności działania oraz koncentracji uwagi.",
       "features": [
-        "Zawody trudne fizycznie",
-        "Zawody niebezpieczne",
-        "Praca na wysokości",
-        "Praca z materiałami niebezpiecznymi"
+        "Zdolności umysłowe",
+        "Szybkość i dokładność działania oraz spostrzegania",
+        "Koncentracja, podzielność i przerzutność uwagi",
+        "Wyobraźnia przestrzenna"
+      ],
+      "price": "Rejestracja",
+      "duration": "tel. 576 804 375"
+    },
+    {
+      "id": "testy-psychomotoryczne",
+      "title": "Testy sprawności psychomotorycznej",
+      "description": "Badanie szybkości i jakości reakcji psychomotorycznych za pomocą specjalistycznych urządzeń.",
+      "features": [
+        "Badanie czasu reakcji prostej – ocena szybkości i równomierności reakcji na bodźce",
+        "Badanie czasu reakcji złożonej – ocena reakcji na bodźce dźwiękowe i świetlne w sytuacjach złożonych",
+        "Koncentracja, podzielność i przerzutność uwagi",
+        "Aparat krzyżowy do oceny szybkości reakcji, zdolności koncentracji oraz dokładności spostrzegania"
       ],
       "price": "Rejestracja",
       "duration": "tel. 576 804 375"
@@ -113,8 +137,8 @@
     "contact": "Kontakt"
   },
   "hero": {
-    "headline": "Profesjonalne badania psychologiczne dla kierowców",
-    "subheadline": "Psycholog transportu w Przemyślu. Szybko, profesjonalnie, zgodnie z wymogami prawa.",
+    "headline": "Profesjonalne badania psychologiczne kierowców",
+    "subheadline": "Badania dla kierowców zawodowych oraz osób kierujących pojazdami w celach służbowych. Badania kierowców skierowanych na badania na wniosek Prezydenta Miasta/Starosty/Komendy Policji lub lekarza. Badania psychologiczne operatorów maszyn i innych pracowników, od których wymagana jest pełna sprawność psychoruchowa",
     "features": [
       "Badania na miejscu w gabinecie",
       "Szybkie wydawanie zaświadczeń",
