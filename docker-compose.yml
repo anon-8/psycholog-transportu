@@ -25,7 +25,7 @@ services:
 
       # Service (jawnie przypisane do routera)
       - "traefik.http.routers.psycholog.service=psycholog-service"
-      - "traefik.http.services.psycholog-service.loadbalancer.server.port=3000"
+      - "traefik.http.services.psycholog-service.loadbalancer.server.port=3001"
     networks:
       - towerlights_network
 
