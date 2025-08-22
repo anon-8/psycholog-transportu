@@ -9,7 +9,6 @@ services:
     environment:
       - NODE_ENV=production
       - NEXT_TELEMETRY_DISABLED=1
-      - PORT=3001 # <-- KLUCZOWE!
     healthcheck:
       test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3001", "||", "exit", "1"]
       interval: 30s
@@ -24,8 +23,12 @@ services:
       - "traefik.http.routers.psycholog.entrypoints=websecure"
       - "traefik.http.routers.psycholog.tls.certresolver=letsencrypt"
 
-      # Service
+      # Service (jawnie przypisane do routera)
       - "traefik.http.routers.psycholog.service=psycholog-service"
       - "traefik.http.services.psycholog-service.loadbalancer.server.port=3001"
     networks:
       - towerlights_network
+
+networks:
+  towerlights_network:
+    external: true
