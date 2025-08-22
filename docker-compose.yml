@@ -21,9 +21,9 @@ services:
       - "traefik.http.routers.psycholog.entrypoints=websecure"
       - "traefik.http.routers.psycholog.tls.certresolver=letsencrypt"
       - "traefik.http.services.psycholog.loadbalancer.server.port=3000"
-#     networks:
-#       - towerlights_network
+    networks:
+      - towerlights_network
 
-# networks:
-#   towerlights_network:
-#     external: true
+networks:
+  towerlights_network:
+    external: true
