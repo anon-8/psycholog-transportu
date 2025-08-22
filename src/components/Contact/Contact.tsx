@@ -70,7 +70,8 @@ export default function Contact() {
                     />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-4">Godziny otwarcia</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-1">Godziny otwarcia</h3>
+                <span className="text-xs text-green-300">Rejstracja wyłącznie telefoniczna</span>
                 <div className="space-y-3">
                   <div className="bg-teal-50 rounded-lg p-3">
                     <div className="flex justify-between items-center">
