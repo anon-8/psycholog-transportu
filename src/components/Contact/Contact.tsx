@@ -22,9 +22,9 @@ export default function Contact() {
 
         <div className="max-w-4xl mx-auto">
           {/* Contact Information */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 md:gap-8 mb-12">
             {/* Phone Contact */}
-            <div className="bg-teal-50 rounded-2xl p-8 md:col-span-2 lg:col-span-1">
+            <div className="bg-teal-50 rounded-2xl p-6 md:p-8 md:col-span-2 lg:col-span-1">
               <div className="text-center">
                 <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <svg className="w-8 h-8 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
@@ -34,7 +34,7 @@ export default function Contact() {
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Telefon</h3>
                 <a
                   href={`tel:${config.contact.phone}`}
-                  className="text-2xl font-bold text-teal-600 hover:text-teal-700 block mb-2"
+                  className="text-xl md:text-2xl font-bold text-teal-600 hover:text-teal-700 block mb-2"
                 >
                   {formatPhoneForDisplay(config.contact.phone)}
                 </a>
@@ -45,7 +45,7 @@ export default function Contact() {
             </div>
 
             {/* Address */}
-            <div className="bg-gray-50 rounded-2xl p-8">
+            <div className="bg-gray-50 rounded-2xl p-6 md:p-8">
               <div className="text-center">
                 <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <svg className="w-8 h-8 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
@@ -58,7 +58,7 @@ export default function Contact() {
             </div>
 
             {/* Opening Hours */}
-            <div className="bg-white border-2 border-teal-100 rounded-2xl p-8">
+            <div className="bg-white border-2 border-teal-100 rounded-2xl p-6 md:p-8">
               <div className="text-center">
                 <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <svg className="w-8 h-8 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">

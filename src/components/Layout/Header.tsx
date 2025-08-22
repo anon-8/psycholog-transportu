@@ -22,7 +22,7 @@ export default function Header() {
           <div className="flex items-center">
             <button
               onClick={() => scrollToSection('hero')}
-              className="text-xl font-bold text-emerald-700 hover:text-emerald-800 transition-colors"
+              className="text-xl font-bold text-teal-700 hover:text-teal-800 transition-colors"
             >
               {config.psychologist.name}
             </button>
@@ -35,25 +35,25 @@ export default function Header() {
           <nav className="hidden md:flex items-center space-x-8">
             <button
               onClick={() => scrollToSection('about')}
-              className="text-gray-700 hover:text-emerald-700 transition-colors"
+              className="text-gray-700 hover:text-teal-700 transition-colors"
             >
               {config.navigation.about}
             </button>
             <button
               onClick={() => scrollToSection('services')}
-              className="text-gray-700 hover:text-emerald-700 transition-colors"
+              className="text-gray-700 hover:text-teal-700 transition-colors"
             >
               {config.navigation.services}
             </button>
             <button
               onClick={() => scrollToSection('reviews')}
-              className="text-gray-700 hover:text-emerald-700 transition-colors"
+              className="text-gray-700 hover:text-teal-700 transition-colors"
             >
               {config.navigation.reviews}
             </button>
             <button
               onClick={() => scrollToSection('contact')}
-              className="text-gray-700 hover:text-emerald-700 transition-colors"
+              className="text-gray-700 hover:text-teal-700 transition-colors"
             >
               {config.navigation.contact}
             </button>
@@ -63,13 +63,13 @@ export default function Header() {
           <div className="hidden lg:flex items-center space-x-4">
             <a
               href={`tel:${config.contact.phone}`}
-              className="text-emerald-700 hover:text-emerald-800 font-medium transition-colors"
+              className="text-teal-700 hover:text-teal-800 font-medium transition-colors"
             >
               {config.contact.phone}
             </a>
             <button
               onClick={() => scrollToSection('contact')}
-              className="bg-emerald-700 text-white px-6 py-2 rounded-lg hover:bg-emerald-800 transition-colors"
+              className="bg-teal-700 text-white px-6 py-2 rounded-lg hover:bg-teal-800 transition-colors"
             >
               {config.cta.primary}
             </button>
@@ -78,7 +78,7 @@ export default function Header() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden p-2 text-gray-600 hover:text-emerald-700 transition-colors"
+            className="md:hidden p-2 text-gray-600 hover:text-teal-700 transition-colors"
           >
             <svg
               className="w-6 h-6"
@@ -107,38 +107,38 @@ export default function Header() {
           <div className="px-2 pt-2 pb-3 space-y-1">
             <button
               onClick={() => scrollToSection('about')}
-              className="block w-full text-left px-3 py-2 text-gray-700 hover:text-emerald-700 hover:bg-gray-50 transition-colors rounded-md"
+              className="block w-full text-left px-3 py-2 text-gray-700 hover:text-teal-700 hover:bg-gray-50 transition-colors rounded-md"
             >
               {config.navigation.about}
             </button>
             <button
               onClick={() => scrollToSection('services')}
-              className="block w-full text-left px-3 py-2 text-gray-700 hover:text-emerald-700 hover:bg-gray-50 transition-colors rounded-md"
+              className="block w-full text-left px-3 py-2 text-gray-700 hover:text-teal-700 hover:bg-gray-50 transition-colors rounded-md"
             >
               {config.navigation.services}
             </button>
             <button
               onClick={() => scrollToSection('reviews')}
-              className="block w-full text-left px-3 py-2 text-gray-700 hover:text-emerald-700 hover:bg-gray-50 transition-colors rounded-md"
+              className="block w-full text-left px-3 py-2 text-gray-700 hover:text-teal-700 hover:bg-gray-50 transition-colors rounded-md"
             >
               {config.navigation.reviews}
             </button>
             <button
               onClick={() => scrollToSection('contact')}
-              className="block w-full text-left px-3 py-2 text-gray-700 hover:text-emerald-700 hover:bg-gray-50 transition-colors rounded-md"
+              className="block w-full text-left px-3 py-2 text-gray-700 hover:text-teal-700 hover:bg-gray-50 transition-colors rounded-md"
             >
               {config.navigation.contact}
             </button>
             <div className="px-3 py-2 space-y-3 border-t border-gray-100 mt-2">
               <a
                 href={`tel:${config.contact.phone}`}
-                className="block text-emerald-700 font-medium text-center py-2"
+                className="block text-teal-700 font-medium text-center py-2"
               >
                 {config.contact.phone}
               </a>
               <button
                 onClick={() => scrollToSection('contact')}
-                className="w-full bg-emerald-700 text-white px-6 py-3 rounded-lg hover:bg-emerald-800 transition-colors font-medium"
+                className="w-full bg-teal-700 text-white px-6 py-3 rounded-lg hover:bg-teal-800 transition-colors font-medium"
               >
                 {config.cta.primary}
               </button>

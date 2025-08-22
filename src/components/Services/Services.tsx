@@ -22,7 +22,7 @@ export default function Services() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-8 md:mb-10">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">{config.servicesIntro.title}</h2>
+          <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-6">{config.servicesIntro.title}</h2>
           <div className="w-16 h-1 bg-teal-600 mx-auto mb-6"></div>
           <p className="text-lg md:text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
             {config.servicesIntro.description}
@@ -31,20 +31,20 @@ export default function Services() {
 
 
         {/* Services Cards */}
-        <div className="space-y-4 md:space-y-6">
+        <div className="space-y-3 md:space-y-4">
           {config.services.map((service) => (
             <div
               key={service.id}
               className="bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200"
             >
               {/* Service Header */}
-              <div className="px-6 py-5 cursor-pointer" onClick={() => toggleService(service.id)}>
-                <div className="flex items-center justify-between">
-                  <div className="flex-1">
-                    <h3 className="text-xl font-semibold text-gray-900 mb-3">{service.title}</h3>
-                    <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-6">
+              <div className="px-4 py-4 md:px-6 md:py-5 cursor-pointer" onClick={() => toggleService(service.id)}>
+                <div className="flex items-start justify-between">
+                  <div className="flex-1 min-w-0 pr-3">
+                    <h3 className="text-lg md:text-xl font-semibold text-gray-900 mb-2 md:mb-3 leading-tight">{service.title}</h3>
+                    <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-4">
                       <div className="flex items-center text-teal-600">
-                        <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg className="w-4 h-4 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path
                             strokeLinecap="round"
                             strokeLinejoin="round"
@@ -52,10 +52,10 @@ export default function Services() {
                             d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"
                           />
                         </svg>
-                        <span className="font-medium">{service.price}</span>
+                        <span className="font-medium text-sm md:text-base">{service.price}</span>
                       </div>
                       <div className="flex items-center text-gray-600">
-                        <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg className="w-4 h-4 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path
                             strokeLinecap="round"
                             strokeLinejoin="round"
@@ -67,7 +67,7 @@ export default function Services() {
                       </div>
                     </div>
                   </div>
-                  <button className="ml-4 p-2 text-gray-400 hover:text-gray-600 transition-colors">
+                  <button className="ml-2 p-2 text-gray-400 hover:text-gray-600 transition-colors flex-shrink-0">
                     <svg
                       className={`w-5 h-5 transform transition-transform duration-200 ${
                         expandedService === service.id ? "rotate-180" : ""
@@ -88,7 +88,7 @@ export default function Services() {
                   expandedService === service.id ? "max-h-screen opacity-100" : "max-h-0 opacity-0"
                 } overflow-hidden`}
               >
-                <div className="px-6 pb-6 border-t border-gray-100">
+                <div className="px-4 pb-4 md:px-6 md:pb-6 border-t border-gray-100">
                   <div className="pt-4">
                     <p className="text-gray-600 mb-4 leading-relaxed">{service.description}</p>
 
@@ -120,10 +120,10 @@ export default function Services() {
                     )}
 
                     {/* CTA Buttons */}
-                    <div className="flex flex-col sm:flex-row gap-3">
+                    <div className="flex flex-col gap-3">
                       <button
                         onClick={scrollToContact}
-                        className="flex-1 bg-teal-600 text-white py-3 px-4 rounded-lg font-medium hover:bg-teal-700 transition-colors flex items-center justify-center space-x-2"
+                        className="w-full bg-teal-600 text-white py-3 px-4 rounded-lg font-medium hover:bg-teal-700 transition-colors flex items-center justify-center space-x-2"
                       >
                         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path
@@ -137,7 +137,7 @@ export default function Services() {
                       </button>
                       <button
                         onClick={scrollToContact}
-                        className="flex-1 sm:flex-initial bg-gray-100 text-gray-700 py-3 px-4 rounded-lg font-medium hover:bg-gray-200 transition-colors"
+                        className="w-full bg-gray-100 text-gray-700 py-3 px-4 rounded-lg font-medium hover:bg-gray-200 transition-colors"
                       >
                         Umów wizytę
                       </button>

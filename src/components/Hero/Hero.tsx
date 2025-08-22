@@ -21,7 +21,7 @@ export default function Hero() {
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
                 {config.hero.headline}
               </h1>
-              <p className="text-xl text-gray-600 leading-relaxed">{config.hero.subheadline}</p>
+              <p className="text-lg md:text-xl text-gray-600 leading-relaxed">{config.hero.subheadline}</p>
             </div>
 
             {/* Features */}
