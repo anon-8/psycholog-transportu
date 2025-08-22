@@ -70,11 +70,19 @@ export default function Contact() {
                     />
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-6">Godziny otwarcia</h3>
-                <div className="space-y-2">
-                  <div className="flex flex-col items-center space-y-1">
-                    <span className="text-gray-600 font-medium">Pon - Pt</span>
-                    <span className="text-gray-900 font-bold">godziny popołudniowe</span>
+                <h3 className="text-xl font-bold text-gray-900 mb-4">Godziny otwarcia</h3>
+                <div className="space-y-3">
+                  <div className="bg-teal-50 rounded-lg p-3">
+                    <div className="flex justify-between items-center">
+                      <span className="text-gray-700 font-medium text-sm">Pon - Czw</span>
+                      <span className="text-teal-600 font-bold">{config.contact.hours.monday}</span>
+                    </div>
+                  </div>
+                  <div className="bg-gray-100 rounded-lg p-3">
+                    <div className="flex justify-between items-center">
+                      <span className="text-gray-700 font-medium text-sm">Piątek</span>
+                      <span className="text-gray-900 font-bold">{config.contact.hours.friday}</span>
+                    </div>
                   </div>
                 </div>
               </div>

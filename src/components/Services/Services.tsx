@@ -43,40 +43,6 @@ export default function Services() {
                     <h3 className="text-lg md:text-xl font-semibold text-gray-900 mb-2 md:mb-3 leading-tight">
                       {service.title}
                     </h3>
-                    <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-4">
-                      <div className="flex items-center text-teal-600">
-                        <svg
-                          className="w-4 h-4 mr-2 flex-shrink-0"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"
-                          />
-                        </svg>
-                        <span className="font-medium text-sm md:text-base">{service.price}</span>
-                      </div>
-                      <div className="flex items-center text-gray-600">
-                        <svg
-                          className="w-4 h-4 mr-2 flex-shrink-0"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                          />
-                        </svg>
-                        <span className="text-sm">{service.duration}</span>
-                      </div>
-                    </div>
                   </div>
                   <button className="ml-2 p-2 text-gray-400 hover:text-gray-600 transition-colors flex-shrink-0">
                     <svg
@@ -145,12 +111,6 @@ export default function Services() {
                           />
                         </svg>
                         <span>Zadzwoń: 576 804 375</span>
-                      </button>
-                      <button
-                        onClick={scrollToContact}
-                        className="w-full bg-gray-100 text-gray-700 py-3 px-4 rounded-lg font-medium hover:bg-gray-200 transition-colors"
-                      >
-                        Umów wizytę
                       </button>
                     </div>
                   </div>

@@ -25,7 +25,11 @@
       "full": "ul. S. Czarnieckiego 2, 37-700 Przemyśl"
     },
     "hours": {
-      "monday": "godziny popołudniowe"
+      "monday": "14:30 - 17:30",
+      "tuesday": "14:30 - 17:30",
+      "wednesday": "14:30 - 17:30",
+      "thursday": "14:30 - 17:30",
+      "friday": "9:00 - 12:00"
     },
     "googleMapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2576.0880093985393!2d22.76850498901902!3d49.78440986155054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473b7f26fd6b343f%3A0x6f73956ceccc3ef0!2sPracownia%20Psychologiczna%20-%20Badania%20kierowc%C3%B3w%20w%20Przemy%C5%9Blu!5e0!3m2!1spl!2spl!4v1755698546214!5m2!1spl!2spl"
   },
@@ -60,40 +64,6 @@
       "title": "Pracownicy w zawodach trudnych i niebezpiecznych",
       "description": "Badania psychologiczne dla osób wykonujących zawody o podwyższonym ryzyku, zgodnie z przepisami medycyny pracy.",
       "features": [],
-      "price": "Rejestracja",
-      "duration": "tel. 576 804 375"
-    },
-    {
-      "id": "testy-osobowosciowe",
-      "title": "Testy osobowości i temperamentu",
-      "description": "Profesjonalne testy psychologiczne do oceny cech osobowości i temperamentu.",
-      "features": [],
-      "price": "Rejestracja",
-      "duration": "tel. 576 804 375"
-    },
-    {
-      "id": "testy-intelektualne",
-      "title": "Testy sprawności intelektualnej",
-      "description": "Ocena zdolności poznawczych i intelektualnych, w tym szybkości i dokładności działania oraz koncentracji uwagi.",
-      "features": [
-        "Zdolności umysłowe",
-        "Szybkość i dokładność działania oraz spostrzegania",
-        "Koncentracja, podzielność i przerzutność uwagi",
-        "Wyobraźnia przestrzenna"
-      ],
-      "price": "Rejestracja",
-      "duration": "tel. 576 804 375"
-    },
-    {
-      "id": "testy-psychomotoryczne",
-      "title": "Testy sprawności psychomotorycznej",
-      "description": "Badanie szybkości i jakości reakcji psychomotorycznych za pomocą specjalistycznych urządzeń.",
-      "features": [
-        "Badanie czasu reakcji prostej – ocena szybkości i równomierności reakcji na bodźce",
-        "Badanie czasu reakcji złożonej – ocena reakcji na bodźce dźwiękowe i świetlne w sytuacjach złożonych",
-        "Koncentracja, podzielność i przerzutność uwagi",
-        "Aparat krzyżowy do oceny szybkości reakcji, zdolności koncentracji oraz dokładności spostrzegania"
-      ],
       "price": "Rejestracja",
       "duration": "tel. 576 804 375"
     }
@@ -141,7 +111,7 @@
     "subheadline": "Badania dla kierowców zawodowych oraz osób kierujących pojazdami w celach służbowych. Badania kierowców skierowanych na badania na wniosek Prezydenta Miasta/Starosty/Komendy Policji lub lekarza. Badania psychologiczne operatorów maszyn i innych pracowników, od których wymagana jest pełna sprawność psychoruchowa",
     "features": [
       "Badania na miejscu w gabinecie",
-      "Szybkie wydawanie zaświadczeń",
+      "Szybkie wydawanie orzeczeń",
       "Profesjonalne podejście",
       "Zgodnie z wymogami prawa"
     ]
