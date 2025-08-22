@@ -5,7 +5,8 @@
     "keywords": "psycholog transportu, badania psychologiczne, kierowcy, Przemyśl, medycyna pracy"
   },
   "psychologist": {
-    "name": "Psycholog Transportu mgr Magdalena Czopko",
+    "name": "mgr Magdalena Czopko",
+    "title": "Psycholog Transportu",
     "experience": "Wieloletnie doświadczenie",
     "bio": "Specjalizuję się w psychologii transportu oraz medycynie pracy. Przeprowadzam profesjonalne badania psychologiczne dla kierowców wszystkich kategorii oraz pracowników w zawodach trudnych i niebezpiecznych.",
     "certifications": [
@@ -65,6 +66,23 @@
       "features": [],
       "price": "Rejestracja",
       "duration": "tel. 576 804 375"
+    },
+    {
+      "id": "testy-psychologiczne",
+      "title": "Testy psychologiczne",
+      "description": "Profesjonalne testy psychologiczne do oceny cech osobowości, temperamentu, zdolności intelektualnych oraz sprawności psychomotorycznej. Badania obejmują szybkość i dokładność działania, koncentrację uwagi oraz reakcje psychomotoryczne przy użyciu specjalistycznych urządzeń.",
+      "features": [
+        "Ocena osobowości i temperamentu",
+        "Zdolności intelektualne i umysłowe",
+        "Szybkość i dokładność działania oraz spostrzegania",
+        "Koncentracja, podzielność i przerzutność uwagi",
+        "Wyobraźnia przestrzenna",
+        "Badanie czasu reakcji prostej – ocena szybkości i równomierności reakcji",
+        "Badanie czasu reakcji złożonej – ocena reakcji na bodźce dźwiękowe i świetlne",
+        "Aparat krzyżowy do oceny szybkości reakcji, koncentracji i dokładności spostrzegania"
+      ],
+      "price": "Rejestracja",
+      "duration": "tel. 576 804 375"
     }
   ],
   "reviews": [
@@ -116,7 +134,7 @@
     ]
   },
   "footer": {
-    "copyright": "© 2025 Pracownia Psychologiczna POMYSŁ NA ZDROWIE. Wszelkie prawa zastrzeżone.",
+    "copyright": "© 2025 Pracownia Psychologiczna mgr Magdalena Czopko. Wszelkie prawa zastrzeżone.",
     "privacyPolicy": "Polityka prywatności"
   }
 }
