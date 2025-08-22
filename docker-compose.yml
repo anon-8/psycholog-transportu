@@ -27,7 +27,5 @@ services:
 
 networks:
   towerlights_network:
-    driver: bridge
-    ipam:
-      config:
-        - subnet: "172.28.0.0/16"
+    external: true
+    name: tower-lights_towerlights_network
