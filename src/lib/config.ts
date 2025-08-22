@@ -48,6 +48,10 @@ export interface SiteConfig {
   };
   contact: Contact;
   services: Service[];
+  servicesIntro: {
+    title: string;
+    description: string;
+  };
   reviews: Review[];
   cta: {
     primary: string;

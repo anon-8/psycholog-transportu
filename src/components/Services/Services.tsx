@@ -29,7 +29,6 @@ export default function Services() {
           </p>
         </div>
 
-
         {/* Services Cards */}
         <div className="space-y-3 md:space-y-4">
           {config.services.map((service) => (
@@ -41,10 +40,17 @@ export default function Services() {
               <div className="px-4 py-4 md:px-6 md:py-5 cursor-pointer" onClick={() => toggleService(service.id)}>
                 <div className="flex items-start justify-between">
                   <div className="flex-1 min-w-0 pr-3">
-                    <h3 className="text-lg md:text-xl font-semibold text-gray-900 mb-2 md:mb-3 leading-tight">{service.title}</h3>
+                    <h3 className="text-lg md:text-xl font-semibold text-gray-900 mb-2 md:mb-3 leading-tight">
+                      {service.title}
+                    </h3>
                     <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-4">
                       <div className="flex items-center text-teal-600">
-                        <svg className="w-4 h-4 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg
+                          className="w-4 h-4 mr-2 flex-shrink-0"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
                           <path
                             strokeLinecap="round"
                             strokeLinejoin="round"
@@ -55,7 +61,12 @@ export default function Services() {
                         <span className="font-medium text-sm md:text-base">{service.price}</span>
                       </div>
                       <div className="flex items-center text-gray-600">
-                        <svg className="w-4 h-4 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg
+                          className="w-4 h-4 mr-2 flex-shrink-0"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
                           <path
                             strokeLinecap="round"
                             strokeLinejoin="round"
