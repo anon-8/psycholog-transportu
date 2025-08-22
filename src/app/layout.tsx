@@ -12,6 +12,10 @@ export const metadata: Metadata = {
   title: config.site.title,
   description: config.site.description,
   keywords: config.site.keywords,
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     title: config.site.title,
     description: config.site.description,
