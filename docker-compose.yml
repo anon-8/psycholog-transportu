@@ -17,10 +17,15 @@ services:
       start_period: 40s
     labels:
       - "traefik.enable=true"
+
+      # Router
       - "traefik.http.routers.psycholog.rule=Host(`psycholog-transportu-przemysl.pl`)"
       - "traefik.http.routers.psycholog.entrypoints=websecure"
       - "traefik.http.routers.psycholog.tls.certresolver=letsencrypt"
-      - "traefik.http.services.psycholog.loadbalancer.server.port=3000"
+
+      # Service (jawnie przypisane do routera)
+      - "traefik.http.routers.psycholog.service=psycholog-service"
+      - "traefik.http.services.psycholog-service.loadbalancer.server.port=3000"
     networks:
       - towerlights_network
 
