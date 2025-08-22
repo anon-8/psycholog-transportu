@@ -1,49 +1,29 @@
-version: '3.8'
-
 services:
   psycholog-transportu:
-    build: 
+    build:
       context: .
       dockerfile: Dockerfile
     image: psycholog-transportu:latest
     container_name: psycholog-transportu-app
     restart: unless-stopped
-    ports:
-      - "3000:3000"
     environment:
       - NODE_ENV=production
-      - PORT=3000
       - NEXT_TELEMETRY_DISABLED=1
     healthcheck:
-      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3000"]
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3000", "||", "exit", "1"]
       interval: 30s
       timeout: 10s
       retries: 3
       start_period: 40s
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.psycholog.rule=Host(`psycholog-transportu.example.com`)"
-      - "traefik.http.routers.psycholog.tls=true"
+      - "traefik.http.routers.psycholog.rule=Host(`psycholog-transportu-przemysl.pl`)"
+      - "traefik.http.routers.psycholog.entrypoints=websecure"
       - "traefik.http.routers.psycholog.tls.certresolver=letsencrypt"
       - "traefik.http.services.psycholog.loadbalancer.server.port=3000"
+    networks:
+      - towerlights_network
 
-  # Optional: Add a reverse proxy for production deployment
-  # traefik:
-  #   image: traefik:v2.10
-  #   container_name: traefik
-  #   restart: unless-stopped
-  #   ports:
-  #     - "80:80"
-  #     - "443:443"
-  #   volumes:
-  #     - /var/run/docker.sock:/var/run/docker.sock:ro
-  #     - ./traefik:/etc/traefik
-  #   command:
-  #     - --api.insecure=false
-  #     - --providers.docker=true
-  #     - --providers.docker.exposedbydefault=false
-  #     - --entrypoints.web.address=:80
-  #     - --entrypoints.websecure.address=:443
-  #     - --certificatesresolvers.letsencrypt.acme.email=admin@example.com
-  #     - --certificatesresolvers.letsencrypt.acme.storage=/etc/traefik/acme.json
-  #     - --certificatesresolvers.letsencrypt.acme.httpchallenge.entrypoint=web
+networks:
+  towerlights_network:
+    external: true
