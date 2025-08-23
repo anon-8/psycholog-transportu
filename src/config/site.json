@@ -66,23 +66,6 @@
       "features": [],
       "price": "Rejestracja",
       "duration": "tel. 576 804 375"
-    },
-    {
-      "id": "testy-psychologiczne",
-      "title": "Testy psychologiczne",
-      "description": "Profesjonalne testy psychologiczne do oceny cech osobowości, temperamentu, zdolności intelektualnych oraz sprawności psychomotorycznej. Badania obejmują szybkość i dokładność działania, koncentrację uwagi oraz reakcje psychomotoryczne przy użyciu specjalistycznych urządzeń.",
-      "features": [
-        "Ocena osobowości i temperamentu",
-        "Zdolności intelektualne i umysłowe",
-        "Szybkość i dokładność działania oraz spostrzegania",
-        "Koncentracja, podzielność i przerzutność uwagi",
-        "Wyobraźnia przestrzenna",
-        "Badanie czasu reakcji prostej – ocena szybkości i równomierności reakcji",
-        "Badanie czasu reakcji złożonej – ocena reakcji na bodźce dźwiękowe i świetlne",
-        "Aparat krzyżowy do oceny szybkości reakcji, koncentracji i dokładności spostrzegania"
-      ],
-      "price": "Rejestracja",
-      "duration": "tel. 576 804 375"
     }
   ],
   "reviews": [

@@ -1,12 +1,12 @@
-'use client';
+"use client";
 
-import Header from '@/components/Layout/Header';
-import Hero from '@/components/Hero/Hero';
-import About from '@/components/About/About';
-import Services from '@/components/Services/Services';
-import Reviews from '@/components/Reviews/Reviews';
-import Contact from '@/components/Contact/Contact';
-import Footer from '@/components/Layout/Footer';
+import Header from "@/components/Layout/Header";
+import Hero from "@/components/Hero/Hero";
+import About from "@/components/About/About";
+import Services from "@/components/Services/Services";
+import Reviews from "@/components/Reviews/Reviews";
+import Contact from "@/components/Contact/Contact";
+import Footer from "@/components/Layout/Footer";
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
         <Hero />
         <About />
         <Services />
-        <Reviews />
+        {/* <Reviews /> */}
         <Contact />
       </main>
       <Footer />
